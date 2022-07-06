@@ -1,0 +1,21 @@
+#cover__kumbalangi-nights:not(target),
+#cover__the-lunchbox:not(target),
+#cover__haider:not(target),
+#cover__aamis:not(target),
+#cover__court:not(target),
+#cover__masaan:not(target) {
+  display: none;
+}
+
+#cover__kumbalangi-nights:target,
+#cover__the-lunchbox:target,
+#cover__haider:target,
+#cover__aamis:target,
+#cover__court:target,
+#cover__masaan:target {
+  width: 100%;
+
+  display: flex;
+
+  position: absolute;
+}

@@ -1,0 +1,52 @@
+/* --- modal --- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(128, 128, 128, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__iframe{
+  width: 80%;
+  height: 30rem;
+}
+
+#modal__tamasha:not(target),
+#modal__kumbalangi-nights:not(target),
+#modal__the-lunchbox:not(target),
+#modal__haider:not(target),
+#modal__aamis:not(target),
+#modal__court:not(target),
+#modal__masaan:not(target) {
+  display: none;
+}
+
+#modal__tamasha:target,
+#modal__kumbalangi-nights:target,
+#modal__the-lunchbox:target,
+#modal__haider:target,
+#modal__aamis:target,
+#modal__court:target,
+#modal__masaan:target {
+  display: flex;
+}
+
+.modal__exit {
+  text-decoration: none;
+
+  padding: 5px 10px;
+
+  position: fixed;
+  top: 4rem;
+  right: center;
+
+  font-size: 2rem;
+  
+  color: white;
+  background-color: black;
+}
