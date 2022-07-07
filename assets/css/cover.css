@@ -1,3 +1,27 @@
+/*--- imagens background do cover ---*/
+.bg-cover--tamasha {
+  background-image: url(../images/movie-cover-tamasha.jpg);
+}
+.bg-cover--kumbalangi-nights {
+  background-image: url(../images/movie-cover-Kumbalangi.png);
+}
+.bg-cover--the-lunchbox {
+  background-image: url(../images/movie-cover-the-lunchbox.jpg);
+}
+.bg-cover--haider {
+  background-image: url(../images/movie-cover-haider.jpg);
+}
+.bg-cover--aamis {
+  background-image: url(../images/movie-cover-aamis.jfif);
+}
+.bg-cover--court {
+  background-image: url(../images/movie-cover-court.jfif);
+}
+.bg-cover--masaan {
+  background-image: url(../images/movie-cover-masaan.jfif);
+}
+
+/*--- imagens já iniciam display none ---*/
 #cover__kumbalangi-nights:not(target),
 #cover__the-lunchbox:not(target),
 #cover__haider:not(target),
@@ -7,6 +31,8 @@
   display: none;
 }
 
+
+/*--- imagens aparecem de acordo com o link chamado ---*/
 #cover__kumbalangi-nights:target,
 #cover__the-lunchbox:target,
 #cover__haider:target,
