@@ -141,25 +141,25 @@ html {
 }
 
 .bg-cover--tamasha {
-  background-image: url(./assets/images/movie-cover-tamasha.jpg);
+  background-image: url(../images/movie-cover-tamasha.jpg);
 }
 .bg-cover--kumbalangi-nights {
-  background-image: url(./assets/images/movie-cover-Kumbalangi.png);
+  background-image: url(../images/movie-cover-Kumbalangi.png);
 }
 .bg-cover--the-lunchbox {
-  background-image: url(./assets/images/movie-cover-the-lunchbox.jpg);
+  background-image: url(../images/movie-cover-the-lunchbox.jpg);
 }
 .bg-cover--haider {
-  background-image: url(./assets/images/movie-cover-haider.jpg);
+  background-image: url(../images/movie-cover-haider.jpg);
 }
 .bg-cover--aamis {
-  background-image: url(./assets/images/movie-cover-aamis.jfif);
+  background-image: url(../images/movie-cover-aamis.jfif);
 }
 .bg-cover--court {
-  background-image: url(./assets/images/movie-cover-court.jfif);
+  background-image: url(../images/movie-cover-court.jfif);
 }
 .bg-cover--masaan {
-  background-image: url(./assets/images/movie-cover-masaan.jfif);
+  background-image: url(../images/movie-cover-masaan.jfif);
 }
 
 .movie-logo {
