@@ -138,6 +138,8 @@ html {
   background-size: cover;
   background-position: top;
   background-position: left;
+
+  background-color: black;
 }
 
 
@@ -184,6 +186,10 @@ html {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 0px 1rem;
+}
+
+.movie__link-button-to-watch{
+  text-decoration: none;
 }
 
 .movie__button-to-watch {
